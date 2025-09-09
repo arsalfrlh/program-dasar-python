@@ -30,3 +30,31 @@ for key, value in data.items(): #data.item() listnya jadi tuple
 #     # Array Key: address, Isi Value Isekai
     
 # print(data.items()) # isinya jadi data tuple dict_items([('name', 'Kwanzaa'), ('age', 20), ('address', 'Isekai')])
+
+
+
+
+#data tambahan
+name = ("Arsal", "Kwanzza")
+
+key, value = name
+print(key)
+print(value)
+
+
+alamat = (("Isekai", "Bandung"), ("Jakarta", "Bali"))
+almt1, almt2 = alamat
+print(almt1)
+print(almt2)
+
+dtlalmt1, dtlalmt2 = almt1
+print(dtlalmt1)
+print(dtlalmt2)
+
+#hasilnya
+# Arsal
+# Kwanzza
+# ('Isekai', 'Bandung')
+# ('Jakarta', 'Bali')
+# Isekai
+# Bandung
